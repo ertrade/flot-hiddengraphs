@@ -1,5 +1,5 @@
 {
 	"name": "flot-hiddengraphs",
 	"version": "0.0.1",
-	"main": "jquery.flot.hiddengraphs.js",
+	"main": "jquery.flot.hiddengraphs.js"
 }
