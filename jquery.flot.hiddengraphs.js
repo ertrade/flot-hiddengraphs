@@ -151,7 +151,7 @@
                 return;
             }
 
-            var p = plot.getPlaceholder();
+            var p = options.legend.container === null ? plot.getPlaceholder() : $(options.legend.container);
 
             setHideAction(p.find(".graphlabel"));
             setHideAction(p.find(".legendColorBox"));
