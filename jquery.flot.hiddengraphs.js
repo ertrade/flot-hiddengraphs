@@ -99,7 +99,7 @@
 
                 if (switchedOn) {
             	    series.color = series.oldColor;
-                    setHidden(options, label, false);
+                    !mouseOut && setHidden(options, label, false);
             	}
             }
         }
